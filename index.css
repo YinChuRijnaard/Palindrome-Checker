@@ -1,0 +1,101 @@
+* {
+    background-color: #121212;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* .dark {
+    --color-primary: #121212;
+    --color-secondary: white;
+    --color-red: #CE1212;
+}
+
+.light {
+    --color-primary: white;
+    --color-secondary: #121212;
+    --color-red: #CE1212;
+} */
+
+h1 {
+    font-family: "VT323", monospace;
+    font-size: 5rem;
+    color: #CE1212;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    font-family: "Nanum Gothic Coding", monospace;
+    color: white;
+    width: 75%;
+    height: 62.5vh;
+    margin: 25px auto 25px auto;
+    border-color: white;
+    padding: 15px;
+}
+
+.input {
+    margin-left: 25px;
+}
+
+.input-field {
+    margin-left: 25px;
+    margin-top: 12.5px;
+    padding: 7.5px;
+    font-family: "Nanum Gothic Coding", monospace;
+    color: white;
+    border: 1px solid;
+}
+
+.input-field:focus::placeholder {
+    color: transparent;
+}
+
+.check-word, .clear-history, .theme {
+    padding: 7.5px;
+    font-family: "Nanum Gothic Coding", monospace;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    cursor: pointer;
+}
+
+.check-word:hover, .clear-history:hover {
+    color: #CE1212;
+}
+
+.child-1 {
+    margin-top: 50px;
+    margin-left: 25px;
+    height: 200px;
+    padding: 15px;
+    /* border: 1px solid; */
+}
+
+#word-checked {
+    margin-top: 15px;
+    margin-left: -15px; /* why doesn't 25px do the same as I've specified 25px above? */
+    line-height: 25px;
+}
+
+.footer {
+    font-family: "Nanum Gothic coding", monospace;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #CE1212;
+    text-decoration: underline;
+}
+
+/* 
+top, right, bottom, left
+*/
